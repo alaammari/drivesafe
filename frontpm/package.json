@@ -1,0 +1,38 @@
+{
+  "name": "frontpm",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-picker/picker": "^2.6.1",
+    "@react-navigation/native": "^6.1.10",
+    "@react-navigation/stack": "^6.3.21",
+    "axios": "^1.6.7",
+    "expo": "~50.0.6",
+    "expo-av": "~13.10.5",
+    "expo-image-picker": "^14.7.1",
+    "expo-location": "~16.5.5",
+    "expo-status-bar": "~1.11.1",
+    "expo-task-manager": "~11.7.2",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-reanimated": "^3.7.0",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-web": "~0.19.6",
+    "@expo/metro-runtime": "~3.1.3",
+    "react-native-svg": "14.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
